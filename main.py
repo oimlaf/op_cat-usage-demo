@@ -34,7 +34,7 @@ multisig_script_1 = script.compile([
     pubkey1,
     pubkey2,
     bitcoin.OP_SIZE,
-    33,  # Длина публичного ключа
+    33,  # Public key leght
     bitcoin.OP_SPLIT,
     bitcoin.OP_DROP,
     2,
